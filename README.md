@@ -1,153 +1,161 @@
-# 📊 Controle de Investimentos em Fundos Imobiliários
+# 🧾 Organizador de Dados para Declaração de Imposto de Renda
 
 ## 📌 Sobre o projeto
 
-Este projeto tem como objetivo **aplicar conceitos de Excel no desenvolvimento de uma ferramenta prática para simulação de investimentos em Fundos de Investimento Imobiliário (FIIs)**.
+Este projeto tem como objetivo **desenvolver uma ferramenta no Excel para organizar e reunir informações importantes para a declaração de Imposto de Renda**.
 
-A partir do estudo sobre o funcionamento dos fundos imobiliários e das principais perguntas realizadas por investidores — como **quanto investir, por quanto tempo investir e qual a taxa de rendimento esperada** — foi desenvolvida uma planilha capaz de realizar simulações e automatizar cálculos relacionados aos investimentos.
+A proposta é criar um **agregador de dados** que permita ao usuário registrar e controlar suas informações de maneira organizada, eficiente e validada, facilitando a consulta dos dados necessários durante o processo de declaração.
 
-A ferramenta proporciona uma visão mais clara sobre o potencial crescimento do patrimônio e dos rendimentos ao longo do tempo.
+A solução foi completamente desenvolvida no **Microsoft Excel**, utilizando recursos de navegação, validação de dados, organização de informações e funcionalidades auxiliares para proporcionar uma experiência prática e intuitiva.
 
 ---
 
 ## 🎯 Objetivo
 
-O principal objetivo do projeto é desenvolver uma ferramenta que permita ao usuário **simular diferentes cenários de investimentos em FIIs**, facilitando a análise dos possíveis resultados a partir dos valores informados.
+O principal objetivo é criar uma ferramenta que facilite a **organização das informações utilizadas na declaração de Imposto de Renda**, reduzindo a necessidade de procurar dados espalhados em diferentes arquivos e documentos.
 
-A planilha busca responder perguntas como:
-
-* Quanto será necessário investir mensalmente?
-* Quanto será acumulado ao longo do tempo?
-* Qual será o patrimônio estimado ao final do período?
-* Quanto poderá ser recebido mensalmente em dividendos?
-* Como diferentes taxas de rendimento podem impactar o resultado?
-* Como o tempo de investimento influencia o patrimônio acumulado?
+A ferramenta permite centralizar as informações em um único local, proporcionando maior organização e facilidade de consulta.
 
 ---
 
 ## ⚙️ Funcionalidades
 
-A ferramenta permite realizar simulações considerando diferentes parâmetros de investimento, como:
+A ferramenta conta com recursos desenvolvidos para facilitar o preenchimento e a navegação:
 
-* 💰 Valor inicial investido
-* 💵 Aportes mensais
-* 📅 Período de investimento
-* 📈 Taxa de rendimento
-* 🏢 Estimativa de patrimônio acumulado
-* 💸 Estimativa de dividendos mensais
-* 📊 Comparação entre diferentes cenários
-
-Os cálculos são automatizados para que o usuário possa alterar os parâmetros e visualizar rapidamente os resultados da simulação.
-
----
-
-## 🧮 Principais cálculos
-
-Entre os principais cálculos realizados pela ferramenta estão:
-
-### Valor total investido
-
-Calcula o montante aportado pelo investidor durante o período analisado.
-
-### Patrimônio acumulado
-
-Estima o crescimento do patrimônio considerando os aportes e a taxa de rendimento utilizada na simulação.
-
-### Dividendos mensais
-
-Apresenta uma estimativa dos dividendos que poderiam ser gerados mensalmente a partir do patrimônio acumulado e da taxa de rendimento informada.
+* 🗂️ Centralização das informações;
+* 📝 Registro organizado dos dados;
+* ✅ Validação automática das informações inseridas;
+* 📋 Menus para facilitar a navegação;
+* 🔗 Links rápidos para acesso a informações e funcionalidades;
+* 🧭 Interface organizada e intuitiva;
+* 🔒 Estrutura padronizada para reduzir erros de preenchimento;
+* 📊 Organização dos dados para facilitar consultas futuras.
 
 ---
 
-## 🛠️ Tecnologias e conceitos utilizados
+## 🧩 Estrutura da ferramenta
 
-* **Microsoft Excel**
-* Fórmulas e funções do Excel
-* Referências de células
-* Formatação e organização de dados
-* Automatização de cálculos
-* Simulação de cenários
-* Análise de resultados
-* Visualização de informações
+A ferramenta foi planejada para proporcionar uma experiência simples e organizada ao usuário.
 
----
-
-## 📊 Estrutura da ferramenta
-
-A planilha foi estruturada para facilitar a interação do usuário com a simulação.
-
-O fluxo principal pode ser representado da seguinte forma:
+O fluxo de utilização pode ser representado da seguinte forma:
 
 ```text
-Parâmetros do investimento
+        Início
           ↓
-    Processamento
+   Menu de navegação
           ↓
-Cálculos automatizados
+   Seleção da informação
           ↓
-      Resultados
+    Entrada dos dados
           ↓
-Patrimônio + Dividendos
+ Validação das informações
+          ↓
+ Dados organizados
+          ↓
+   Consulta e controle
 ```
 
 ---
 
-## 📈 Exemplo de utilização
+## 🛠️ Tecnologias e recursos utilizados
 
-O usuário pode informar, por exemplo:
+O projeto foi desenvolvido utilizando exclusivamente o **Microsoft Excel**.
 
-| Parâmetro            |   Exemplo |
-| -------------------- | --------: |
-| Investimento inicial |  R$ 5.000 |
-| Aporte mensal        |    R$ 500 |
-| Período              |   10 anos |
-| Taxa de rendimento   | 0,8% a.m. |
+### Recursos utilizados:
 
-A ferramenta utiliza essas informações para calcular automaticamente:
+* Microsoft Excel
+* Tabelas
+* Fórmulas e funções
+* Validação de dados
+* Listas suspensas
+* Hiperlinks
+* Menus de navegação
+* Formatação condicional
+* Organização e estruturação de dados
+* Proteção e padronização de células
 
-* Total aportado;
-* Patrimônio estimado;
-* Rendimentos acumulados;
-* Estimativa de dividendos mensais.
+---
 
-> **Observação:** os valores apresentados pela ferramenta são resultados de simulação e não representam garantia de rentabilidade futura.
+## 📋 Validação de dados
+
+Um dos principais recursos utilizados no projeto é a **validação de dados**.
+
+Ela permite controlar as informações inseridas pelo usuário e reduzir erros de preenchimento.
+
+Por exemplo:
+
+```text
+Tipo de informação
+        ↓
+┌─────────────────────┐
+│ Selecione uma opção │
+├─────────────────────┤
+│ Rendimentos         │
+│ Bens e Direitos     │
+│ Investimentos       │
+│ Despesas            │
+└─────────────────────┘
+```
+
+Esse tipo de recurso ajuda a manter os dados padronizados e facilita sua organização.
+
+---
+
+## 🧭 Menu de navegação
+
+A ferramenta possui menus que facilitam o acesso às diferentes áreas da planilha.
+
+A navegação foi pensada para que o usuário consiga encontrar rapidamente as informações desejadas sem precisar percorrer manualmente todas as abas.
+
+---
+
+## 🔗 Links rápidos
+
+Também foram utilizados **links rápidos** para facilitar o acesso a determinadas áreas da ferramenta e tornar a navegação mais dinâmica.
+
+Essa funcionalidade contribui para uma experiência mais próxima de uma aplicação, mesmo utilizando exclusivamente recursos do Excel.
+
+---
+
+## 📊 Organização dos dados
+
+A estrutura da ferramenta busca manter as informações organizadas e padronizadas, permitindo que os dados sejam facilmente consultados posteriormente.
+
+A centralização das informações também facilita a conferência antes da utilização dos dados na declaração.
 
 ---
 
 ## 💡 Aplicação prática
 
-O projeto foi desenvolvido com foco em transformar conceitos de Excel em uma **ferramenta prática para análise de cenários financeiros**.
+O projeto foi desenvolvido pensando em uma situação real: reunir, em um único ambiente, informações que normalmente podem estar distribuídas entre diferentes documentos, planilhas e registros.
 
-A proposta é permitir que o usuário altere os parâmetros da simulação e observe como diferentes condições podem afetar o resultado final.
-
-Dessa forma, a ferramenta pode ser utilizada para explorar cenários de:
-
-* Diferentes valores de aporte;
-* Diferentes períodos de investimento;
-* Diferentes taxas de rendimento;
-* Crescimento do patrimônio;
-* Evolução dos dividendos.
+Com isso, o usuário pode utilizar a ferramenta durante o ano para **registrar e organizar suas informações**, evitando deixar todo o trabalho de levantamento de dados para o período da declaração.
 
 ---
 
 ## 📚 Aprendizados
 
-Durante o desenvolvimento do projeto foram trabalhados conceitos relacionados a:
+Durante o desenvolvimento deste projeto foram trabalhados conceitos importantes de Excel, incluindo:
 
-* Construção de planilhas financeiras;
-* Organização e tratamento de informações;
-* Criação de fórmulas para automatização de cálculos;
-* Simulação de cenários;
-* Análise de indicadores financeiros;
-* Estruturação de ferramentas voltadas à tomada de decisão.
+* Estruturação de ferramentas no Excel;
+* Organização e padronização de dados;
+* Validação de informações;
+* Criação de menus de navegação;
+* Utilização de hiperlinks;
+* Automação de tarefas;
+* Criação de interfaces amigáveis;
+* Aplicação prática de fórmulas e funções;
+* Desenvolvimento de soluções voltadas para problemas reais.
 
 ---
 
-## ⚠️ Disclaimer
+## ⚠️ Observação
 
-Este projeto possui **finalidade educacional** e demonstra a aplicação de conceitos de Excel em simulações de investimentos.
+Esta ferramenta possui **finalidade organizacional e educacional**.
 
-As informações e resultados apresentados não constituem recomendação de investimento. Rentabilidades reais podem variar e investimentos em FIIs estão sujeitos a riscos e oscilações de mercado.
+Ela foi desenvolvida para auxiliar na organização e centralização de informações, não substituindo a orientação de um contador ou profissional especializado em declaração de Imposto de Renda.
+
+As regras e exigências fiscais podem sofrer alterações, portanto as informações devem ser conferidas de acordo com as orientações oficiais vigentes.
 
 ---
 
@@ -157,4 +165,4 @@ As informações e resultados apresentados não constituem recomendação de inv
 
 Técnico de Informática em transição para a área de **Análise de Dados**.
 
-Este projeto faz parte do meu portfólio de estudos e tem como objetivo demonstrar a aplicação prática de **Excel, análise de dados e construção de ferramentas para apoio à tomada de decisão**.
+Este projeto faz parte do meu portfólio de estudos e demonstra a aplicação prática de **Excel, organização de dados, validação de informações e desenvolvimento de ferramentas para apoio à tomada de decisão**.
